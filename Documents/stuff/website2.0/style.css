@@ -1,0 +1,130 @@
+/* for everything*/
+
+/*body*/
+
+#body {
+    background-image: url(sources/background\ textures/1.jpg);
+    
+    margin: 0;
+    
+    
+}
+
+#main {
+}
+
+/* Navbar */
+
+#divnavhl {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.884);
+    margin: 0;
+    padding: 1rem;
+    box-shadow: 0px 10px 10px 5px rgb(0 0 0 / 50%);;
+}
+
+#headline {
+    margin-top: 0%;
+    font-size: 3rem;
+}
+
+#divhl {
+    
+}
+
+#divnav {
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+
+/* for index.html */
+
+#main {
+
+}
+/*conten one */
+#ct1 {
+    display: grid;
+    width: 40rem;
+    grid-template-rows: 80% 20%;
+    padding: 2rem;
+    margin: 2rem;
+    background-image: url(sources/background\ textures/14.jpg);
+    background-size: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 1.5rem;
+    color: #fff;
+
+}
+
+#ytbt {
+    background-color: rgba(255, 255, 255, 0.349);
+    color: black;
+    border: none;
+    border-radius: 2rem;
+    margin-bottom: 12rem;
+    font-size: 3rem;
+    transition: all 200ms ease-in;
+    text-align: center;
+}
+
+#ytbt:hover{
+    background-color: #1b2034;
+    color: white;
+}
+
+#ct1txt {
+    font-size: 1.5rem;
+}
+
+/*content two */
+
+#ct2 {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    background-image: url(sources/background\ textures/5.jpg);
+    background-size: 100%;
+    width: 68rem;
+    margin-left: 50rem;
+    border-radius: 2rem;
+}
+
+#ct2jstxt {
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 9rem;
+}
+
+#jsbt {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.274);
+    margin: 1rem;
+    margin-bottom: 37rem;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+    transition: all 100ms ease-in;
+    margin-top: 2rem;
+    
+}
+
+#jsbt:hover {
+    background-color: rgba(2, 133, 89, 0.486);
+}
+
+#jsbtimg {
+    margin: 1rem;
+}
+
